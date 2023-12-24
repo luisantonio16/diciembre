@@ -13,21 +13,32 @@ body{
 
 .swiper {
     margin: 100px auto;
-    width: 320px;
-    height: 240px;
+    width: 350px;
+    height: 320px;
+    border-radius: 20px;
   }
 
+  .prueba1{
+    display: flex;
+    flex-direction: column;
+  }
+  .prueba1 h2{
+    font-size: 28px;
+    font-weight: 600;
+  }
   .swiper-slide {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 600;
     color: #fff;
+    text-align: center;
+    
   }
 
   .swiper-slide:nth-child(1n) {
-    background-color: rgb(206, 17, 17);
+    background-color: rgba(214, 8, 8, 0.733);
   }
 
   .swiper-slide:nth-child(2n) {
