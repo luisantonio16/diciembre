@@ -13,8 +13,9 @@ body{
 
 .swiper {
     margin: 100px auto;
-    width: 350px;
-    height: 320px;
+    width: 50%;
+    max-width:350px;
+    height: 350px;
     border-radius: 20px;
   }
 
@@ -38,7 +39,7 @@ body{
   }
 
   .swiper-slide:nth-child(1n) {
-    background-color: rgba(214, 8, 8, 0.733);
+    background-color: rgba(158, 43, 224, 0.795);
   }
 
   .swiper-slide:nth-child(2n) {
@@ -50,11 +51,11 @@ body{
   }
 
   .swiper-slide:nth-child(4n) {
-    background-color: rgb(211, 122, 7);
+    background-color: rgba(255, 155, 5, 0.979);
   }
 
   .swiper-slide:nth-child(5n) {
-    background-color: rgb(118, 163, 12);
+    background-color: rgba(224, 34, 34, 0.979);
   }
 
   .swiper-slide:nth-child(6n) {
