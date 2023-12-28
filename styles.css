@@ -6,7 +6,6 @@ body{
     background-color: #2f3542;
     color: #fff;
     display: flex;
-    height: 100vh;
     align-items: center;
     justify-content: center;
     font-family: "Montserrat", sans-serif;
@@ -17,6 +16,7 @@ body{
 .container{
   width: 90%;
   position: relative;
+  margin-top: 40px;
 }
 .container-year{
   width: 100%;
@@ -215,4 +215,37 @@ body{
   75% {
       transform: translate(20px, -20px);
   }
+}
+
+@media  (max-width:760px) {
+  
+.year-titulo{
+  font-size: 90px;
+
+}
+.year-line{
+  left: 10%;
+}
+.year{
+  font-size: 70px;
+  margin-top: 50px;
+}
+.year-line2{
+  left: 15%;
+ 
+}
+
+.container-letras{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.titulo{
+  margin-top: 20px;
+  opacity: 0;
+  font-size: 25px;
+
+}
 }
