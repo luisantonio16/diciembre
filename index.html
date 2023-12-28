@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="styles.css">
   <title>Daniela</title>
 </head>
-<body>
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide prueba1 "><h2 class="animate__animated animate__backInDown animate__delay-2s">Hola Daniela, desliza para ver mas.</h2>
-            <img src="arrow_80px.png" alt="">
-          </div>
-          <div class="swiper-slide">Para mi era mas facil hacer esto que escribir una nota.</div>
-          <div class="swiper-slide">y habia una alta posibilidad de que no entendieras mi letra</div>
-          <div class="swiper-slide">Solo queria decirte</div>
-          <div class="swiper-slide">Feliz navidad y un feliz resto del Año.</div>
-          <div class="swiper-slide">Y tambien que </div>
-          <div class="swiper-slide">me gustaria que te des la oportunidad de conocerme un poco mas </div>
-          <div class="swiper-slide">no me gusta la idea de que pienses que soy igual o peor, sin conocerme bien</div>
-          <div class="swiper-slide">Espero que te guste el regalo.</div>
-        </div>
-      </div>
-  
-      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-      <!-- Initialize Swiper -->
-      <script>
-        var swiper = new Swiper(".mySwiper", {
-          grabCursor: true,
-          effect: "creative",
-          creativeEffect: {
-            prev: {
-              shadow: true,
-              translate: [0, 0, -400],
-            },
-            next: {
-              translate: ["100%", 0, 0],
-            },
-          },
-        });
-        </script>
+<body>
+  <div class="container">
+ 
+      <div class="circle-l"></div>
+      <div class="circle-l"></div>
+      <div class="circle-l"></div>
+      <div class="circle-l"></div>
+      <div class="circle-s"></div>
+      <div class="circle-s"></div>
+      <div class="circle-s"></div>
+      <div class="circle-s"></div>
+      <div class="circle-s"></div>
+   
+
+    <div class="container-year">
+      <div class="line"></div>
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="year-titulo" id="year-titulo"></div>
+      <div class="year-line"></div>
+      <div class="year" id="year"></div>
+      <div class="year-line2"></div>
+    </div>
+
+    <div class="container-letras">
+      <h2 class="titulo text1">Lorem ipsum dolor sit amet.</h2>
+      <h2 class="titulo text2">Lorem ipsum, soy luis.</h2>
+      <h2 class="titulo text3">Lorem ipsum, soy el ultimo</h2>
+     
+    </div>
+
+   
+
+  
+
+  </div>
 </body>
+<script src="main.js"></script>
+
 </html>
