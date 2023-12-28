@@ -224,21 +224,21 @@ body{
 
 }
 .year-line{
-  left: 10%;
+  left: 5%;
 }
 .year{
   font-size: 70px;
   margin-top: 50px;
 }
 .year-line2{
-  left: 15%;
+  left: 25%;
  
 }
 
 .container-letras{
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 5%;
   width: 100%;
 }
 
